@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <title>r0794178_1</title>
@@ -7,7 +7,7 @@
 <body>
 <header>
 <h1>Eerste Pagina</h1>
-    <a class="linkToSecondPage" href="tweede.html">Tweede Pagina</a>
+    <a  href="tweede.jsp">Tweede Pagina</a>
 </header>
 <main>
     <p>
