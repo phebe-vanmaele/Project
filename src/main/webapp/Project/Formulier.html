@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Voeg Toe</title>
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a class="menu" href="Index.html">Home</a></li>
+            <li><a class="menu" id="active"  href="Formulier.html">Voeg toe</a></li>
+            <li><a class="menu" href="Overzicht.html">Overzicht</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <h2>Voeg Toe</h2>
+    <form action="#" method="GET">
+        <h4>Vul volgende velden in om nieuwe gegevens toe te voegen.</h4>
+        <fieldset>
+            <div class="section">
+                <label for="Date">Datum:</label>
+                <input type="date" name="Datum" id="Date" required><br>
+            </div>
+
+            <div class="section">
+                <label for="keuze">Groep:</label>
+                <select name="keuze" id="keuze">
+                    <option value=""></option>
+                    <option value="Biekes">Biekes</option>
+                    <option value="Speelclub">Speelclub</option>
+                    <option value="Kwiks">Kwiks</option>
+                    <option value="Tippers">Tippers</option>
+                    <option value="Tiptiens">Tiptiens</option>
+                    <option value="Aspiranten">Aspiranten</option>
+                </select><br>
+            </div>
+
+            <div class="section">
+                <label for="Aantal">Aantal:</label>
+                <input type="text" name="Aantal" id="Aantal" required><br>
+            </div>
+
+            <input type="submit" value="Verzenden">
+
+        </fieldset>
+    </form>
+</main>
+<footer>
+    <p class="p2">Webontwikkeling2 - Phebe Van Maele - 2020-2021</p>
+</footer>
+
+</body>
+</html>
